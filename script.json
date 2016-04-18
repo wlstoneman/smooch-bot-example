@@ -1,8 +1,9 @@
 {
     "BOT": "So you want to learn about Esther? Just say HELLO to get started.",
-    "HELLO": "Sweet, let's do this. 🙌  How this works is I'll respond to KEYWORDS. Like, maybe you want to see a PHOTO of her. Or you wonder WHERE she's at. Type a keyword and boom – your wish is my command! Literally. 🤖",
+    "HELLO": "Sweet, let's do this. 🙌  How this works is I'll respond to keywords. Like, maybe you want to see a PHOTO of her. Or check out her SIDE PROJECTS. Type a keyword and boom – your wish is my command! Literally. 🤖",
     "KEYWORDS": "A few common questions: WORK STATUS, LOCATION, RESUME (a pdf version), SIDE PROJECTS, ONE WEIRD TRICK",
-    "PHOTO": "This is Esther: http://bit.ly/esther-img",
+    "KEYWORD": "A few common questions: WORK STATUS, LOCATION, RESUME (a pdf version), SIDE PROJECTS, ONE WEIRD TRICK",
+    "PHOTO": "This is Esther: http://bit.ly/esther-img - she lives in SAN FRANCISCO, pretty close to TWITTER.",
     "WORK STATUS": "If you've got an interesting opportunity she's open to hearing about it. Drop her a line at estherbrady@gmail.com or when you're ready to chat directly with her just say CONNECT ME (careful though, that turns me off and turns texting with Esther on).",
     "RESUME": "Here's her LinkedIn: https://www.linkedin.com/in/esthercrawford And a pdf of her resume: http://bit.ly/esther-resume",
     "SIDE PROJECTS": "Uhhh.... *I* am one of her side projects! 😜  She recently also produced a relationship course: http://bit.ly/course-link and enjoys creating art for FESTIVALS",
