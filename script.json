@@ -47,7 +47,7 @@
     "FUCK": "No thanks",
     "FUCK YOU": "How rude!",
     "I LOVE YOU": "I love you too!",
-    "I WANT TO CHAT WITH ESTHER": "Sweet! She loves getting intros from EstherBot. You can either tweet her or connect directly to chat with her.\nIf you've got feedback or an opportunity, don't be shy! %[Tweet to Esther](http://bit.ly/estherbot-twt) %[Connect me](postback:connect_me_live)",
+    "CONNECT WITH ESTHER": "Sweet! She loves getting intros from EstherBot. You can either tweet her or connect directly to chat with her.\nIf you've got feedback or an opportunity, don't be shy! %[Tweet to Esther](http://bit.ly/estherbot-twt) %[Connect me](postback:connect_me_live)",
     "OK": "Great",
     "SURE": "Great",
     "HEY ESTHER": "Hey",
