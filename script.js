@@ -5,6 +5,12 @@ const Script = require('smooch-bot').Script;
 
 const scriptRules = require('./script.json');
 
+function wait(ms) {
+    return new Promise((resolve) => {
+        setTimeout(resolve, ms);
+    });
+}
+
 module.exports = new Script({
     processing: {
         //prompt: (bot) => bot.say('Beep boop...'),
@@ -55,7 +61,9 @@ module.exports = new Script({
                     line = line.trim();
                     p = p.then(function() {
                         console.log(line);
-                        return bot.say(line);
+                        return wait(50).then(function() {
+                            return bot.say(line);
+                        });
                     });
                 });
 
