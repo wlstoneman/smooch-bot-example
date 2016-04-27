@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Do you want to learn about ESTHER or learn HOW to get your own bot? Say either the keyword ESTHER or HOW to get started. Fyi, I only respond to keywords.')
+            return bot.say('So you want to learn about Esther? Just say HELLO to get started.')
                 .then(() => 'speak');
         }
     },
@@ -44,27 +44,19 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`I didn't understand that – I can only respond to keywords (a word I've said in all caps).`).then(() => 'speak');
+                    return bot.say(`I didn't understand that.`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
-                var lines = response.split(/(<img src=\'[^>]*\'\/>)/);
+                var lines = response.split('\n');
 
                 var p = Promise.resolve();
                 _.each(lines, function(line) {
                     line = line.trim();
-                    if (!line.startsWith("<")) {
-                        p = p.then(function() {
-                            return bot.say(line);
-                        });
-                    } else {
-                        // p = p.then(function() {
-                        //     var start = line.indexOf("'") + 1;
-                        //     var end = line.lastIndexOf("'");
-                        //     var imageFile = line.substring(start, end);
-                        //     return bot.sendImage(imageFile);
-                        // });
-                    }
+                    p = p.then(function() {
+                        console.log(line);
+                        return bot.say(line);
+                    });
                 })
 
                 return p.then(() => 'speak');
