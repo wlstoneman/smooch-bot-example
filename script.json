@@ -54,7 +54,7 @@
     "ANOTHER PLEASE": "Ok... Esther hitchhiked through Syria. She even stayed in Homs, the city that became ground zero in the ongoing civil war. More? %[Don't stop now](postback:fact_more_three) %[Nah](postback:fact_nah)",
     "DON'T STOP NOW": "Since she speaks Arabic, Esther signed up for a refugee resettlement volunteer program.\nThat led to an Iraqi refugee moving in for a little while. %[Moooore](postback:fact_more_four) %[Nah](postback:fact_nah)",
     "MOOOORE": "Not a surprise? But... she's the coordinator for her 30+ Burning Man camp.\nIt's a lot like herding cats. %[Do it again](postback:fact_more_five) %[Nah](postback:fact_nah)",
-    "DO IT AGAIN": "Esther is an alumni mentor for TechWomen – an organization that helps create more women leaders in Africa, Central Asia and the Middle East.\nOk, you've exhausted me for now! %[The beginning](postback:beginning)",
+    "DO IT AGAIN": "Esther is an alumni mentor for TechWomen – an organization that helps create more women leaders in Africa, Central Asia and the Middle East.\nOk, you've exhausted me for now but you can always say 'more' to chat about something else! %[The beginning](postback:beginning)",
     "FUCK": "No thanks",
     "FUCK YOU": "How rude!",
     "I LOVE YOU": "I love you too!",
