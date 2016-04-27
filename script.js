@@ -13,7 +13,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('So you want to learn about Esther? Just say HELLO to get started.')
+            return bot.say('Do you want to learn about ESTHER or learn HOW to get your own bot? Say either the keyword ESTHER or HOW to get started. Fyi, I only respond to keywords.')
                 .then(() => 'speak');
         }
     },
@@ -44,7 +44,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`I didn't understand that.`).then(() => 'speak');
+                    return bot.say(`I didn't understand that – I can only respond to keywords (a word I've said in all caps).`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
@@ -57,7 +57,7 @@ module.exports = new Script({
                         console.log(line);
                         return bot.say(line);
                     });
-                })
+                });
 
                 return p.then(() => 'speak');
             }
