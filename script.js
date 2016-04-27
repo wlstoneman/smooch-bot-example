@@ -19,7 +19,7 @@ module.exports = new Script({
 
     start: {
         receive: (bot) => {
-            return bot.say('Do you want to learn about ESTHER or learn HOW to get your own bot? Say either the keyword ESTHER or HOW to get started. Fyi, I only respond to keywords.')
+            return bot.say('Get started by saying BOT.')
                 .then(() => 'speak');
         }
     },
@@ -50,7 +50,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`EstherBot is turned off for some upgrading.`).then(() => 'speak');
+                    return bot.say(`So, I'm only good at structured conversations. Use my buttons or say 'BOT' to start over.`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
