@@ -44,7 +44,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`I didn't understand that – I can only respond to keywords (a word I've said in all caps).`).then(() => 'speak');
+                    return bot.say(`EstherBot is turned off for some upgrading.`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
