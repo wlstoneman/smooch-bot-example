@@ -50,7 +50,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`So, I'm only good at structured conversations. Use my buttons or say 'BOT' to start over.`).then(() => 'speak');
+                    return bot.say(`So, I'm good at structured conversations but stickers, emoji and sentences still confuse me. I'm still learning - thanks for understanding!`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
