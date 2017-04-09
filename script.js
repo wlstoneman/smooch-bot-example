@@ -1,7 +1,7 @@
-'use strict';
+-example'use strict';
 
 const _ = require('lodash');
-const Script = require('smooch-bot').Script;
+const Script = require('smooch-bot-example').Script;
 
 const scriptRules = require('./script.json');
 
